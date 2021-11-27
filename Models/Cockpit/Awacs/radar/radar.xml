@@ -17,9 +17,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Every software has a developer, also free software. 
-As a gesture of courtesy and respect, I would be delighted 
-if you contacted me before making any changes to this software. 
+Every software has a developer, also free software.
+As a gesture of courtesy and respect, I would be delighted
+if you contacted me before making any changes to this software.
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
 <PropertyList>
@@ -35,7 +35,7 @@ if you contacted me before making any changes to this software.
 			<blue>0.0</blue>
 		</emission>
 	</animation>
-	
+
 	<animation>
 		<type>material</type>
   		<object-name>sup</object-name>
@@ -49,7 +49,7 @@ if you contacted me before making any changes to this software.
 			<factor-prop>systems/electrical/outputs/panel-dim</factor-prop>
 		</emission>
 	</animation>
-	
+
 	<animation>
 		<type>material</type>
   		<object-name>sup</object-name>
@@ -64,7 +64,7 @@ if you contacted me before making any changes to this software.
 		  <factor-prop>systems/electrical/outputs/cabin-dim</factor-prop>
 		</emission>
 	</animation>
-	
+
 	<animation>
 		<type>material</type>
 			<object-name>KnobRange</object-name>
@@ -79,7 +79,7 @@ if you contacted me before making any changes to this software.
 			<factor-prop>systems/electrical/outputs/panel-dim</factor-prop>
 		</emission>
 	</animation>
-	
+
 	<animation>
 		<type>material</type>
 			<object-name>KnobRange</object-name>
@@ -105,7 +105,7 @@ if you contacted me before making any changes to this software.
 		<inherits-from>Effects/model-transparent</inherits-from>
 			<object-name>sup</object-name>
   </effect>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>radarblade</object-name>
@@ -119,7 +119,7 @@ if you contacted me before making any changes to this software.
 			<property>instrumentation/mptcas/on</property>
 		</condition>
 	</animation>
-	
+
 	<animation>
 		<type>rotate</type>
 		<object-name>radarblade</object-name>
@@ -136,7 +136,7 @@ if you contacted me before making any changes to this software.
 			<z>0</z>
 		</axis>
 	</animation>
-	
+
 	<animation>
 		<type>noshadow</type>
 		<object-name>radarblade</object-name>
@@ -148,7 +148,7 @@ if you contacted me before making any changes to this software.
 		<object-name>radarblade</object-name>
 		<object-name>cover</object-name>
 	</effect>
-	
+
 	<!-- the knob animations -->
 	<animation>
 		<type>rotate</type>
@@ -166,7 +166,7 @@ if you contacted me before making any changes to this software.
 			<z>0</z>
 		</axis>
 	</animation>
-	
+
 	<animation>
 		<type>pick</type>
 		<object-name>KnobOnOff</object-name>
@@ -174,7 +174,7 @@ if you contacted me before making any changes to this software.
 		<action>
 			<name>show info</name>
 			<button>0</button>
-			<repeatable>true</repeatable>			
+			<repeatable>true</repeatable>
 			<binding>
 				<command>property-toggle</command>
 				<property>instrumentation/mptcas/on</property>
@@ -185,7 +185,7 @@ if you contacted me before making any changes to this software.
 			</binding>
 		</action>
 	</animation>
-	
+
 	<animation>
 		<type>rotate</type>
 		<object-name>KnobRange</object-name>
@@ -202,7 +202,7 @@ if you contacted me before making any changes to this software.
 			<z>0</z>
 		</axis>
 	</animation>
-	
+
 	<animation>
 		<type>pick</type>
 		<object-name>KnobRange</object-name>
@@ -211,7 +211,7 @@ if you contacted me before making any changes to this software.
 			<name>calibrate fine dec</name>
 			<button>0</button>
 		<repeatable>true</repeatable>
-			<binding>	          
+			<binding>
 				<condition>
 		            <not><property>devices/status/keyboard/shift</property></not>
 		            <not><property>devices/status/keyboard/super</property></not>
@@ -223,7 +223,7 @@ if you contacted me before making any changes to this software.
 				<max>0.8</max>
 				<wrap>false</wrap>
 			</binding>
-			<binding>	          
+			<binding>
 				<condition>
 		            <or>
 						<property>devices/status/keyboard/shift</property>
@@ -246,7 +246,7 @@ if you contacted me before making any changes to this software.
 			<name>calibrate fine inc</name>
 			<button>1</button>
 		<repeatable>true</repeatable>
-			<binding>	          
+			<binding>
 				<condition>
 		            <not><property>devices/status/keyboard/shift</property></not>
 		            <not><property>devices/status/keyboard/super</property></not>
@@ -258,7 +258,7 @@ if you contacted me before making any changes to this software.
 				<max>0.8</max>
 				<wrap>false</wrap>
 			</binding>
-			<binding>	          
+			<binding>
 				<condition>
 		            <or>
 						<property>devices/status/keyboard/shift</property>
@@ -281,7 +281,7 @@ if you contacted me before making any changes to this software.
 			<name>calibrate fine dec</name>
 			<button>3</button>
 		<repeatable>true</repeatable>
-			<binding>	          
+			<binding>
 				<condition>
 		            <not><property>devices/status/keyboard/shift</property></not>
 		            <not><property>devices/status/keyboard/super</property></not>
@@ -293,7 +293,7 @@ if you contacted me before making any changes to this software.
 				<max>0.8</max>
 				<wrap>false</wrap>
 			</binding>
-			<binding>	          
+			<binding>
 				<condition>
 		            <or>
 						<property>devices/status/keyboard/shift</property>
@@ -316,7 +316,7 @@ if you contacted me before making any changes to this software.
 			<name>calibrate fine inc</name>
 			<button>4</button>
 		<repeatable>true</repeatable>
-			<binding>	          
+			<binding>
 				<condition>
 		            <not><property>devices/status/keyboard/shift</property></not>
 		            <not><property>devices/status/keyboard/super</property></not>
@@ -328,7 +328,7 @@ if you contacted me before making any changes to this software.
 				<max>0.8</max>
 				<wrap>false</wrap>
 			</binding>
-			<binding>	          
+			<binding>
 				<condition>
 		            <or>
 						<property>devices/status/keyboard/shift</property>
@@ -347,6 +347,16 @@ if you contacted me before making any changes to this software.
 				<property>sim/sound/switch3</property>
 			</binding>
 		</action>
+		<hovered>
+            <binding>
+                <command>set-tooltip</command>
+                <tooltip-id>radrang</tooltip-id>
+                <label>Radar range: %d NM</label>
+                <property>instrumentation/mptcas/display-factor-awacs</property>
+                <mapping>nasal</mapping>
+			    <script>return arg[0]*500;</script>
+            </binding>
+        </hovered>
 	</animation>
 
 <!-- TCAS ANIMATIONS -->
@@ -403,5 +413,5 @@ if you contacted me before making any changes to this software.
 
 
 
-	
+
 </PropertyList>

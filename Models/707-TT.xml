@@ -95,7 +95,7 @@ if you contacted me before making any changes to this software.
 	<object-name>LeftGearCompressor</object-name>
 	<object-name>LeftGearCompressor1</object-name>
 	<condition>
-    	<not><property>sim/current-view/internal</property></not>
+    	<not><property>/sim/current-view/internal</property></not>
 	</condition>
 </animation>
  
@@ -328,7 +328,7 @@ if you contacted me before making any changes to this software.
 		<object-name>operationLight3</object-name>
 		<condition>
 			<equals>
-		    <property>sim/current-view/view-number</property>
+		    <property>/sim/current-view/view-number</property>
 		    <value>12</value>
 		  </equals>
 		</condition>
@@ -1133,7 +1133,7 @@ if you contacted me before making any changes to this software.
 				 	<value>0.9</value>
 				</greater-than>
 			</condition>
-      <factor>-25</factor>
+      <factor>70</factor>
       <center>
           <x-m>-15.58</x-m>
           <y-m>  0.0</y-m>
@@ -1853,7 +1853,7 @@ if you contacted me before making any changes to this software.
   <type>translate</type>
   <object-name>lhibail</object-name>
   <object-name>lhobail</object-name>
-  <property>surface-positions/aileron-left-norm</property>
+  <property>controls/flight/aileron</property>
   <interpolation>    
   	<entry>
       <ind>-1.0</ind>
@@ -1886,8 +1886,8 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>lhibail</object-name>
-  <property>surface-positions/aileron-left-norm</property>
-  <factor>-25</factor>
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
   <offset-deg>0</offset-deg>   
   <axis>
 		<x1-m>  4.32</x1-m>
@@ -1902,8 +1902,8 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>lhobail</object-name>
-  <property>surface-positions/aileron-left-norm</property>
-  <factor>-25</factor>
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
   <offset-deg>0</offset-deg>   
   <axis>
 		<x1-m>  7.35</x1-m>
@@ -1919,7 +1919,7 @@ if you contacted me before making any changes to this software.
   <type>translate</type>
   <object-name>rhibail</object-name>
   <object-name>rhobail</object-name>
-  <property>surface-positions/aileron-right-norm</property>
+  <property>controls/flight/aileron</property>
   <interpolation>    
   	<entry>
       <ind>-1.0</ind>
@@ -1952,8 +1952,8 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>rhibail</object-name>
-  <property>surface-positions/aileron-right-norm</property>
-  <factor>-25</factor>
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
   <offset-deg>0</offset-deg>   
   <axis>
 		<x1-m>  4.32</x1-m>
@@ -1968,8 +1968,8 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>rhobail</object-name>
-  <property>surface-positions/aileron-right-norm</property>
-  <factor>-25</factor>
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
   <offset-deg>0</offset-deg>   
   <axis>
 		<x1-m>  7.35</x1-m>
@@ -1984,8 +1984,8 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>lhelevator</object-name>
-  <property>surface-positions/elevator-norm</property>
-  <factor>25</factor>
+  <property>controls/flight/elevator</property>
+  <factor>15</factor>
   <offset-deg>0</offset-deg>   
   <center>
    <x-m>21.3</x-m>
@@ -2002,8 +2002,8 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>rhelevator</object-name>
-  <property>surface-positions/elevator-norm</property>
-  <factor>25</factor>
+  <property>controls/flight/elevator</property>
+  <factor>15</factor>
   <offset-deg>0</offset-deg>   
   <center>
    <x-m>21.3</x-m>
@@ -2021,8 +2021,8 @@ if you contacted me before making any changes to this software.
   <type>rotate</type>
   <object-name>rudder</object-name>
   <object-name>rudderWithLight</object-name>
-  <property>surface-positions/rudder-norm</property>
-  <factor>-25</factor>
+  <property>controls/flight/rudder</property>
+  <factor>-22.5</factor>
   <offset-deg>0</offset-deg>   
   <axis>
 		<x1-m> 22.57</x1-m>

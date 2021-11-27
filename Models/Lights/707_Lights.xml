@@ -178,10 +178,7 @@ if you contacted me before making any changes to this software.
 		<condition>
 			<and>
 				<not>
-					<or>
-                       <property>/sim/rendering/shaders/generic</property>
-                       <property>/sim/rendering/shaders/skydome</property>
-                    </or>
+					<property>/sim/rendering/rembrandt/enabled</property>
 				</not>
 				<property>sim/multiplay/generic/int[0]</property>
 				<property>gear/gear[0]/position-norm</property>	     
@@ -204,10 +201,7 @@ if you contacted me before making any changes to this software.
 		<condition>
 			<and>
 				<not>
-					<or>
-                        <property>/sim/rendering/shaders/generic</property>
-                        <property>/sim/rendering/shaders/skydome</property>
-                    </or>
+					<property>/sim/rendering/rembrandt/enabled</property>
 				</not>
 				<property>sim/multiplay/generic/int[1]</property>	          
 				  <less-than>
@@ -282,10 +276,7 @@ if you contacted me before making any changes to this software.
 	<object-name>BeaconVolume_2</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 	    <property>sim/multiplay/generic/int[3]</property>
 	    <property>sim/multiplay/generic/int[4]</property>
 		</and>
@@ -298,10 +289,7 @@ if you contacted me before making any changes to this software.
   <object-name>LightBeaconGlow</object-name>
   <condition>
     <and>
-    	<not><or>
-            <property>/sim/rendering/shaders/generic</property>
-            <property>/sim/rendering/shaders/skydome</property>
-        </or></not>
+    	<not><property>/sim/rendering/rembrandt/enabled</property></not>
 	    <property>sim/multiplay/generic/int[3]</property>
 	    <property>sim/multiplay/generic/int[4]</property>
     </and>
@@ -367,10 +355,7 @@ if you contacted me before making any changes to this software.
 	<object-name>NavLightVolume_left</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 			<property>sim/multiplay/generic/int[3]</property>
 		</and>
 	</condition>
@@ -465,10 +450,7 @@ if you contacted me before making any changes to this software.
 	<object-name>NavLightBackVolume</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 			<property>sim/multiplay/generic/int[2]</property>
 		</and>
 	</condition>
@@ -488,10 +470,7 @@ if you contacted me before making any changes to this software.
 	<object-name>LightVolume</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 		  <property>sim/multiplay/generic/int[0]</property>
 		  <property>gear/gear[0]/position-norm</property>
 		</and>
@@ -534,10 +513,7 @@ if you contacted me before making any changes to this software.
 	<object-name>LightVolume.001</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 		  <property>sim/multiplay/generic/int[1]</property>
 		</and>
 	</condition>
@@ -548,10 +524,7 @@ if you contacted me before making any changes to this software.
 	<object-name>LightVolume.002</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 		  <property>sim/multiplay/generic/int[1]</property>
 		</and>
 	</condition>
@@ -562,10 +535,7 @@ if you contacted me before making any changes to this software.
   <object-name>lightconeRudderL</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 		  <property>sim/multiplay/generic/int[7]</property>
 		</and>
 	</condition>
@@ -576,10 +546,7 @@ if you contacted me before making any changes to this software.
   <object-name>lightconeRudderR</object-name>
 	<condition>
 		<and>
-			<or>
-                <property>/sim/rendering/shaders/generic</property>
-                <property>/sim/rendering/shaders/skydome</property>
-            </or>
+			<property>/sim/rendering/rembrandt/enabled</property>
 		  <property>sim/multiplay/generic/int[7]</property>
 		</and>
 	</condition>
@@ -993,3 +960,4 @@ if you contacted me before making any changes to this software.
 
 
 </PropertyList>
+

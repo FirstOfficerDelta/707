@@ -435,7 +435,7 @@ if you contacted me before making any changes to this software.
 		<object-name>eng_light_8</object-name>
 		<condition>
 			<property>/sim/rendering/rembrandt/enabled</property>
-      <property>sim/current-view/internal</property>
+      <property>/sim/current-view/internal</property>
 		</condition>
 	</animation>	 
 	
@@ -627,7 +627,7 @@ if you contacted me before making any changes to this software.
 		<type>select</type>
 		<object-name>pilots</object-name>	
 		<condition>
-      <not><property>sim/current-view/internal</property></not>
+      <not><property>/sim/current-view/internal</property></not>
 			<not><property>sim/multiplay/generic/int[19]</property></not>
 		</condition>
 	</animation>
@@ -657,7 +657,7 @@ if you contacted me before making any changes to this software.
 			<object-name>book</object-name>
 			<object-name>canvasBook</object-name>
 			<condition>
-		    <property>sim/current-view/internal</property>
+		    <property>/sim/current-view/internal</property>
 			</condition>
 	</animation>	
 	

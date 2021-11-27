@@ -38,9 +38,6 @@ if you contacted me before making any changes to this software.
       </livery>
   </model>
 
-  <flight-model>jsb</flight-model>
-  <aero>707</aero>
-
 	<menubar>
 		<default>
 			<menu n="100">
@@ -259,8 +256,11 @@ no. D6-3071-00
 		<refuel>
 		 <type>boom</type>
 		 <serviceable type="bool">false</serviceable>
-		 <max-fuel-transfer-lbs-min>50000</max-fuel-transfer-lbs-min>
+		 <max-fuel-transfer-lbs-min type="double">50000</max-fuel-transfer-lbs-min>
 		 <!-- no realistic behavior. I tried from 6000 to 50000 lbs-min but is nearly the same)-->
+		 <offset-x-m type="double">5.0</offset-x-m>
+		 <offset-y-m type="double">0.0</offset-y-m>
+		 <offset-z-m type="double">6.0</offset-z-m>
 		</refuel>
 	</systems>
 

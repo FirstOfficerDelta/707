@@ -77,17 +77,13 @@ var listenerApPB20ModeFunc = func {
 
 		if (	getprop("autopilot/Bendix-PB-20/controls/mode-selector") == 0) {
 			# NAV - Mode
-			
-			setprop("autopilot/locks/heading", "true-heading-hold");
 
 			if (getprop("autopilot/route-manager/active") == 1 and getprop("autopilot/route-manager/airborne") == 1) {
+				setprop("autopilot/locks/passive-mode", 1);
+
 				# resets
-				if (getprop("autopilot/Bendix-PB-20/controls/alt-active") == 0) {
-					setprop("autopilot/locks/altitude", "");
-				}
-				else {
-					setprop("autopilot/locks/altitude", "altitude-hold");
-				}
+				setprop("autopilot/locks/altitude", "");
+				setprop("autopilot/locks/heading", "");
 			}
 			else {
 				gui.popupTip("You must be airborne and a route must be active to activate this mode !");
