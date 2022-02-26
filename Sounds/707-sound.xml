@@ -17,15 +17,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Every software has a developer, also free software. 
-As a gesture of courtesy and respect, I would be delighted 
-if you contacted me before making any changes to this software. 
+Every software has a developer, also free software.
+As a gesture of courtesy and respect, I would be delighted
+if you contacted me before making any changes to this software.
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
 <PropertyList>
 
  <fx>
- 
+
   <engine>
 		<name>startupOne</name>
  		<path>Sounds/whine.wav</path>
@@ -36,15 +36,21 @@ if you contacted me before making any changes to this software.
 				<and>
 					<not><property>sim/current-view/internal</property></not>
 					<not>
-						<equals>
-							<property>sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
-					</not>					
+            <or>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 1</value>
+              </equals>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 2</value>
+              </equals>
+            </or>
+					</not>
 					<not>
 						<equals>
 							<property>sim/current-view/view-number</property>
-							<value>12</value>	
+							<value>12</value>
 						</equals>
 					</not>
 				</and>
@@ -53,7 +59,7 @@ if you contacted me before making any changes to this software.
 					<value>0.01</value>
 				</greater-than>
 			</or>
-		</condition>			    
+		</condition>
 		<volume>
 			<property>engines/engine[0]/n1</property>
 			<type>ln</type>
@@ -81,7 +87,7 @@ if you contacted me before making any changes to this software.
 			<reference-dist>20</reference-dist>
 		</orientation>
   </engine>
- 
+
   <engine>
 		<name>startupTwo</name>
  		<path>Sounds/whine.wav</path>
@@ -92,15 +98,21 @@ if you contacted me before making any changes to this software.
 				<and>
 					<not><property>sim/current-view/internal</property></not>
 					<not>
-						<equals>
-							<property>sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
+            <or>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 1</value>
+              </equals>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 2</value>
+              </equals>
+            </or>
 					</not>
 					<not>
 						<equals>
 							<property>sim/current-view/view-number</property>
-							<value>12</value>	
+							<value>12</value>
 						</equals>
 					</not>
 				</and>
@@ -109,7 +121,7 @@ if you contacted me before making any changes to this software.
 					<value>0.01</value>
 				</greater-than>
 			</or>
-		</condition>	   
+		</condition>
 		<volume>
 			<property>engines/engine[1]/n1</property>
 			<type>ln</type>
@@ -137,7 +149,7 @@ if you contacted me before making any changes to this software.
 			<reference-dist>20</reference-dist>
 		</orientation>
   </engine>
- 
+
   <engine>
 		<name>startupThree</name>
  		<path>Sounds/whine.wav</path>
@@ -148,15 +160,21 @@ if you contacted me before making any changes to this software.
 				<and>
 					<not><property>sim/current-view/internal</property></not>
 					<not>
-						<equals>
-							<property>sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
+            <or>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 1</value>
+              </equals>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 2</value>
+              </equals>
+            </or>
 					</not>
 					<not>
 						<equals>
 							<property>sim/current-view/view-number</property>
-							<value>12</value>	
+							<value>12</value>
 						</equals>
 					</not>
 				</and>
@@ -165,7 +183,7 @@ if you contacted me before making any changes to this software.
 					<value>0.01</value>
 				</greater-than>
 			</or>
-		</condition>	    
+		</condition>
 		<volume>
 			<property>engines/engine[2]/n1</property>
 			<type>ln</type>
@@ -204,15 +222,21 @@ if you contacted me before making any changes to this software.
 				<and>
 					<not><property>sim/current-view/internal</property></not>
 					<not>
-						<equals>
-							<property>sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
+            <or>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 1</value>
+              </equals>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 2</value>
+              </equals>
+            </or>
 					</not>
 					<not>
 						<equals>
 							<property>sim/current-view/view-number</property>
-							<value>12</value>	
+							<value>12</value>
 						</equals>
 					</not>
 				</and>
@@ -221,7 +245,7 @@ if you contacted me before making any changes to this software.
 					<value>0.01</value>
 				</greater-than>
 			</or>
-		</condition>	   
+		</condition>
 		<volume>
 			<property>engines/engine[3]/n1</property>
 			<type>ln</type>
@@ -259,12 +283,16 @@ if you contacted me before making any changes to this software.
 			<property>engines/engine[0]/n1</property>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
-		</condition>	   
+		</condition>
 		<volume>
 			<property>engines/engine[0]/n1</property>
 			<type>ln</type>
@@ -292,21 +320,25 @@ if you contacted me before making any changes to this software.
 			<reference-dist>20</reference-dist>
 		</orientation>
   </engine>
-  
+
   <engine>
 		<name>TheTwo</name>
  		<path>Sounds/whine.wav</path>
 		<mode>looped</mode>
 		<condition>
-			<property>engines/engine[1]/n1</property>			
+			<property>engines/engine[1]/n1</property>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
-		</condition>	   
+		</condition>
 		<volume>
 			<property>engines/engine[1]/n1</property>
 			<type>ln</type>
@@ -334,21 +366,25 @@ if you contacted me before making any changes to this software.
 			<reference-dist>20</reference-dist>
 		</orientation>
   </engine>
-  
+
   <engine>
 		<name>TheThree</name>
  		<path>Sounds/whine.wav</path>
 		<mode>looped</mode>
 		<condition>
-			<property>engines/engine[2]/n1</property>			
+			<property>engines/engine[2]/n1</property>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
-		</condition>	   
+		</condition>
 		<volume>
 			<property>engines/engine[2]/n1</property>
 			<type>ln</type>
@@ -376,21 +412,25 @@ if you contacted me before making any changes to this software.
 			<reference-dist>20</reference-dist>
 		</orientation>
   </engine>
-  
+
   <engine>
 		<name>TheFour</name>
  		<path>Sounds/whine.wav</path>
 		<mode>looped</mode>
 		<condition>
-			<property>engines/engine[3]/n1</property>			
+			<property>engines/engine[3]/n1</property>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
-		</condition>	   
+		</condition>
 		<volume>
 			<property>engines/engine[3]/n1</property>
 			<type>ln</type>
@@ -425,14 +465,20 @@ if you contacted me before making any changes to this software.
 		<name>leftengine</name>
 		<path>Sounds/jet.wav</path>
 		<mode>looped</mode>
-		<condition>	
+		<condition>
 			<and>
 				<not><property>sim/current-view/internal</property></not>
 				<not>
-					<equals>
-						<property>sim/current-view/name</property>
-						<value type="string">Passengers View</value>
-					</equals>
+          <or>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 1</value>
+            </equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 2</value>
+            </equals>
+          </or>
 				</not>
 			</and>
 			<or>
@@ -449,7 +495,7 @@ if you contacted me before making any changes to this software.
 						<property>engines/engine[1]/n1</property>
 						<value>30</value>
 					</greater-than>
-				</and>     
+				</and>
 			</or>
 		</condition>
 		<volume>
@@ -471,13 +517,17 @@ if you contacted me before making any changes to this software.
 		<name>leftengineInner</name>
 		<path>Sounds/jet.wav</path>
 		<mode>looped</mode>
-		<condition>			
+		<condition>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 			<or>
 				<and>
@@ -493,7 +543,7 @@ if you contacted me before making any changes to this software.
 						<property>engines/engine[1]/n1</property>
 						<value>30</value>
 					</greater-than>
-				</and>     
+				</and>
 			</or>
 		</condition>
 		<volume>
@@ -515,14 +565,20 @@ if you contacted me before making any changes to this software.
 		<name>leftengineThrust</name>
 		<path>thrust.wav</path>
 		<mode>looped</mode>
-		<condition>			
+		<condition>
 			<and>
 				<not><property>sim/current-view/internal</property></not>
 				<not>
-					<equals>
-						<property>sim/current-view/name</property>
-						<value type="string">Passengers View</value>
-					</equals>
+          <or>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 1</value>
+            </equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 2</value>
+            </equals>
+          </or>
 				</not>
 			</and>
 			<or>
@@ -539,7 +595,7 @@ if you contacted me before making any changes to this software.
 						<property>engines/engine[1]/n1</property>
 						<value>30</value>
 					</greater-than>
-				</and>     
+				</and>
 			</or>
 		</condition>
 		<volume>
@@ -561,14 +617,20 @@ if you contacted me before making any changes to this software.
 		<name>rightengine</name>
 		<path>Sounds/jet.wav</path>
 		<mode>looped</mode>
-		<condition>		
+		<condition>
 			<and>
 				<not><property>sim/current-view/internal</property></not>
 				<not>
-					<equals>
-						<property>sim/current-view/name</property>
-						<value type="string">Passengers View</value>
-					</equals>
+          <or>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 1</value>
+            </equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 2</value>
+            </equals>
+          </or>
 				</not>
 			</and>
 			<or>
@@ -585,7 +647,7 @@ if you contacted me before making any changes to this software.
 						<property>engines/engine[3]/n1</property>
 						<value>30</value>
 					</greater-than>
-				</and>     
+				</and>
 			</or>
 		</condition>
 		<volume>
@@ -602,18 +664,22 @@ if you contacted me before making any changes to this software.
 			<z>1.2</z>
 		</position>
 	</engine>
-	
+
 	<engine>
 		<name>rightengineInner</name>
 		<path>Sounds/jet.wav</path>
 		<mode>looped</mode>
-		<condition>			
+		<condition>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 			<or>
 				<and>
@@ -629,7 +695,7 @@ if you contacted me before making any changes to this software.
 						<property>engines/engine[3]/n1</property>
 						<value>30</value>
 					</greater-than>
-				</and>     
+				</and>
 			</or>
 		</condition>
 		<volume>
@@ -651,14 +717,20 @@ if you contacted me before making any changes to this software.
 		<name>rightengineThrust</name>
 		<path>thrust.wav</path>
 		<mode>looped</mode>
-		<condition>			
+		<condition>
 			<and>
 				<not><property>sim/current-view/internal</property></not>
 				<not>
-					<equals>
-						<property>sim/current-view/name</property>
-						<value type="string">Passengers View</value>
-					</equals>
+          <or>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 1</value>
+            </equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 2</value>
+            </equals>
+          </or>
 				</not>
 			</and>
 			<or>
@@ -675,7 +747,7 @@ if you contacted me before making any changes to this software.
 						<property>engines/engine[3]/n1</property>
 						<value>30</value>
 					</greater-than>
-				</and>     
+				</and>
 			</or>
 		</condition>
 		<volume>
@@ -697,13 +769,17 @@ if you contacted me before making any changes to this software.
 		<name>rumble</name>
 		<mode>looped</mode>
 		<path>Aircraft/707/Sounds/thrust.wav</path>
-		<condition>			
+		<condition>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 			<or>
 				<property>gear/gear[0]/wow</property>
@@ -726,13 +802,17 @@ if you contacted me before making any changes to this software.
 		<name>rumbleOnGround</name>
 		<mode>looped</mode>
 		<path>Aircraft/707/Sounds/rumblingOnGround.wav</path>
-		<condition>			
+		<condition>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 			<or>
 				<property>gear/gear[0]/wow</property>
@@ -750,7 +830,7 @@ if you contacted me before making any changes to this software.
 			<offset>0.5</offset>
 		</pitch>
 	</rumble>
-	
+
 	<gear>
 		<name>gear</name>
 		<mode>in-transit</mode>
@@ -774,12 +854,12 @@ if you contacted me before making any changes to this software.
 			<not><property>b707/crashed</property></not>
 		</condition>
 	</gear>
-	
+
   <crashed>
     <name>AirplaneCrashed</name>
     <mode>looped</mode>
     <path>Aircraft/707/Sounds/crash_ground.wav</path>
-     <condition>			
+     <condition>
      	<and>
 				<greater-than>
 					<property>velocities/groundspeed-kt</property>
@@ -798,7 +878,7 @@ if you contacted me before making any changes to this software.
 				<offset>0.5</offset>
 			</pitch>
     </crashed>
-  
+
 	<squeal>
 		<name>squeal</name>
 		<path>Aircraft/707/Sounds/touchdown.wav</path>
@@ -819,7 +899,7 @@ if you contacted me before making any changes to this software.
           <offset>1.0</offset>
       </pitch>
 	</squeal>
- 
+
 	<flap>
 		<name>flaps</name>
 		<mode>in-transit</mode>
@@ -829,9 +909,9 @@ if you contacted me before making any changes to this software.
 			<factor>0.45</factor>
 		</volume>
 	</flap>
-  
+
 	<speedbrake>
-		<name>speedbrake</name>	
+		<name>speedbrake</name>
 		<mode>in-transit</mode>
 		<path>Sounds/flaps.wav</path>
 		<property>surface-positions/speedbrake-pos-norm</property>
@@ -843,17 +923,17 @@ if you contacted me before making any changes to this software.
 			<factor>0.4</factor>
 		</pitch>
 	</speedbrake>
-	
+
 	<reverser>
-		<name>Reverse</name>	
+		<name>Reverse</name>
 		<mode>looped</mode>
 		<path>Aircraft/707/Sounds/reverser.wav</path>
-		<condition>			
+		<condition>
 			<or>
 				<property>engines/engine[0]/running</property>
 				<property>engines/engine[1]/running</property>
 				<property>engines/engine[2]/running</property>
-				<property>engines/engine[3]/running</property>     
+				<property>engines/engine[3]/running</property>
 			</or>
 			<property>engines/engine[0]/reversed</property>
 		</condition>
@@ -861,7 +941,7 @@ if you contacted me before making any changes to this software.
 			<property>controls/engines/engine[0]/throttle</property>
 			<factor>1</factor>
 		</volume>
-	</reverser>	
+	</reverser>
 
 	<wind>
 		<name>wind</name>
@@ -887,7 +967,7 @@ if you contacted me before making any changes to this software.
 			<offset>1.25</offset>
 		</pitch>
 	</wind>
-	
+
 	<!-- sound in the cockpit at autostart procedure -->
 	<enginesmsg>
 		<name>clear engines</name>
@@ -903,7 +983,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</enginesmsg>
-	
+
 	<enginesmsg>
 		<name>starting one</name>
 		<mode>once</mode>
@@ -913,7 +993,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</enginesmsg>
-	
+
 	<enginesmsg>
 		<name>starting two</name>
 		<mode>once</mode>
@@ -923,7 +1003,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</enginesmsg>
-	
+
 	<enginesmsg>
 		<name>starting three</name>
 		<mode>once</mode>
@@ -933,7 +1013,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</enginesmsg>
-	
+
 	<enginesmsg>
 		<name>starting four</name>
 		<mode>once</mode>
@@ -943,7 +1023,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</enginesmsg>
-	
+
 	<enginesmsg>
 		<name>all started</name>
 		<mode>once</mode>
@@ -958,10 +1038,10 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</enginesmsg>
-	
+
 	<stall>
 		<name>stall or overspeed</name>
-		<path>Aircraft/707/Sounds/speed.wav</path>		
+		<path>Aircraft/707/Sounds/speed.wav</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -977,7 +1057,7 @@ if you contacted me before making any changes to this software.
 						</less-than>
 						<greater-than>
 							<property>position/altitude-agl-ft</property>
-							<value>600.0</value>					
+							<value>600.0</value>
 						</greater-than>
 					</and>
 					<greater-than>
@@ -1050,7 +1130,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</firewarning>
-	
+
 	<mdawarning>
 		<name>mda warning</name>
 		<mode>once</mode>
@@ -1069,7 +1149,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</mdawarning>
-	
+
 	<icewarning>
 		<name>ice warning</name>
 		<mode>once</mode>
@@ -1088,7 +1168,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</icewarning>
-		
+
 	<call>
 		<name>nosmoking</name>
 		<mode>once</mode>
@@ -1106,7 +1186,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</call>
-	
+
 	<call>
 		<name>seatbelts</name>
 		<mode>once</mode>
@@ -1124,7 +1204,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</call>
-		
+
 	<call>
 		<name>grdcall</name>
 		<mode>once</mode>
@@ -1142,7 +1222,7 @@ if you contacted me before making any changes to this software.
 			<factor>1</factor>
 		</volume>
 	</call>
-		
+
 	<call>
 		<name>cabinAtten</name>
 		<mode>once</mode>
@@ -1160,7 +1240,7 @@ if you contacted me before making any changes to this software.
 			<factor>3</factor>
 		</volume>
 	</call>
-		
+
 	<call>
 		<name>persAccom</name>
 		<mode>once</mode>
@@ -1225,8 +1305,8 @@ if you contacted me before making any changes to this software.
 		<volume>
 			<factor>1</factor>
 		</volume>
-	</pneumatic>		
-	
+	</pneumatic>
+
   <door>
    <name>Passengers door</name>
    <path>Sounds/door_close.wav</path>
@@ -1240,7 +1320,7 @@ if you contacted me before making any changes to this software.
     <factor>0.6</factor>
    </volume>
   </door>
- 	
+
   <door>
    <name>Passengers door rear</name>
    <path>Sounds/door_close.wav</path>
@@ -1254,7 +1334,7 @@ if you contacted me before making any changes to this software.
     <factor>0.3</factor>
    </volume>
   </door>
-  
+
   <door>
    <name>Nose door</name>
    <path>Sounds/door_close.wav</path>
@@ -1268,7 +1348,7 @@ if you contacted me before making any changes to this software.
     <factor>0.3</factor>
    </volume>
   </door>
- 
+
   <door>
    <name>Cargo_door</name>
    <path>Sounds/door_close.wav</path>
@@ -1282,7 +1362,7 @@ if you contacted me before making any changes to this software.
     <factor>0.4</factor>
    </volume>
   </door>
- 
+
   <door>
    <name>Belly_door</name>
    <path>Sounds/door_close.wav</path>
@@ -1295,8 +1375,8 @@ if you contacted me before making any changes to this software.
    <volume>
     <factor>0.4</factor>
    </volume>
-  </door>  
-  
+  </door>
+
 	<!-- cargo door -->
 	<cargo>
 		<name>cargoDoor</name>
@@ -1309,7 +1389,7 @@ if you contacted me before making any changes to this software.
 			<factor>-0.001</factor>
 		</pitch>
 	</cargo>
-	
+
 	<!-- belly door -->
 	<belly>
 		<name>bellyDoor</name>
@@ -1322,7 +1402,7 @@ if you contacted me before making any changes to this software.
 			<factor>-0.001</factor>
 		</pitch>
 	</belly>
-	
+
 	<!-- refuelling boom -->
 	<boom>
 		<name>refuelBoom</name>
@@ -1335,7 +1415,7 @@ if you contacted me before making any changes to this software.
 			<factor>-0.002</factor>
 		</pitch>
 	</boom>
-	
+
 	<probeLeft>
 		<name>ProbeLeft</name>
 		<mode>in-transit</mode>
@@ -1347,7 +1427,7 @@ if you contacted me before making any changes to this software.
 			<factor>-0.002</factor>
 		</pitch>
 	</probeLeft>
-	
+
 	<probeRight>
 		<name>ProbeRight</name>
 		<mode>in-transit</mode>
@@ -1359,7 +1439,7 @@ if you contacted me before making any changes to this software.
 			<factor>-0.002</factor>
 		</pitch>
 	</probeRight>
-  
+
    <click>
    <name>click on</name>
    <path>Aircraft/707/Sounds/click.wav</path>
@@ -1383,7 +1463,7 @@ if you contacted me before making any changes to this software.
     <max>0.2</max>
    </volume>
   </click>
-  
+
   <switch>
     <name>click1 on</name>
     <mode>once</mode>
@@ -1487,7 +1567,7 @@ if you contacted me before making any changes to this software.
       <offset> 1 </offset>
     </volume>
   </switch>
-  
+
     <wiperhu>
       <name>wiperhu</name>
       <mode>once</mode>
@@ -1511,7 +1591,7 @@ if you contacted me before making any changes to this software.
         <offset>1.0</offset>
       </pitch>
     </wiperhu>
-    
+
     <wiperho>
       <name>wiperho</name>
       <mode>once</mode>
@@ -1535,7 +1615,7 @@ if you contacted me before making any changes to this software.
         <offset>1.0</offset>
       </pitch>
     </wiperho>
-    
+
     <pushback>
       <name>Pushback_outside</name>
       <mode>looped</mode>
@@ -1546,10 +1626,16 @@ if you contacted me before making any changes to this software.
 						<and>
 							<not><property>sim/current-view/internal</property></not>
 							<not>
-								<equals>
-									<property>sim/current-view/name</property>
-									<value type="string">Passengers View</value>
-								</equals>
+                <or>
+                  <equals>
+                    <property>sim/current-view/name</property>
+                    <value type="string">Passengers View 1</value>
+                  </equals>
+                  <equals>
+                    <property>sim/current-view/name</property>
+                    <value type="string">Passengers View 2</value>
+                  </equals>
+                </or>
 							</not>
 						</and>
 						<greater-than>
@@ -1582,11 +1668,15 @@ if you contacted me before making any changes to this software.
       <condition>
       	<and>
 			<or>
-				<property>sim/current-view/internal</property>								
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+				<property>sim/current-view/internal</property>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 			<or>
       			<property>sim/model/pushback/enabled</property>
@@ -1601,7 +1691,7 @@ if you contacted me before making any changes to this software.
         <max>0.4</max>
       </volume>
     </pushback>
-    
+
     <extpowerunit>
       <name>ExtPower_outside</name>
       <mode>looped</mode>
@@ -1612,10 +1702,16 @@ if you contacted me before making any changes to this software.
 				<and>
 					<not><property>sim/current-view/internal</property></not>
 					<not>
-						<equals>
-							<property>sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
+            <or>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 1</value>
+              </equals>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 2</value>
+              </equals>
+            </or>
 					</not>
 				</and>
 				<greater-than>
@@ -1640,13 +1736,17 @@ if you contacted me before making any changes to this software.
       <mode>looped</mode>
       <path>Aircraft/707/Sounds/external.wav</path>
       <condition>
-      	<and>			
+      	<and>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 		    <property>b707/external-power-connected</property>
 		 </and>
@@ -1658,8 +1758,8 @@ if you contacted me before making any changes to this software.
         <min>0.05</min>
         <max>0.2</max>
       </volume>
-    </extpowerunit>  
-	
+    </extpowerunit>
+
     <refuelservice>
       <name>RefuelService_outside</name>
       <mode>looped</mode>
@@ -1670,10 +1770,16 @@ if you contacted me before making any changes to this software.
 				<and>
 					<not><property>sim/current-view/internal</property></not>
 					<not>
-						<equals>
-							<property>sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
+            <or>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 1</value>
+              </equals>
+              <equals>
+                <property>sim/current-view/name</property>
+                <value type="string">Passengers View 2</value>
+              </equals>
+            </or>
 					</not>
 				</and>
 				<greater-than>
@@ -1703,13 +1809,17 @@ if you contacted me before making any changes to this software.
       <mode>looped</mode>
       <path>Aircraft/707/Sounds/pushback.wav</path>
       <condition>
-      	<and>			
+      	<and>
 			<or>
 				<property>sim/current-view/internal</property>
-				<equals>
-					<property>sim/current-view/name</property>
-					<value type="string">Passengers View</value>
-				</equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 1</value>
+          </equals>
+          <equals>
+            <property>sim/current-view/name</property>
+            <value type="string">Passengers View 2</value>
+          </equals>
 			</or>
 			<property>b707/ground-service/fuel-truck/state</property>
 		 </and>
@@ -1726,19 +1836,23 @@ if you contacted me before making any changes to this software.
         <factor>0.5</factor>
         <offset>1.0</offset>
       </pitch>
-    </refuelservice>  	
+    </refuelservice>
 
     <apu>
 			<name>APU-internal</name>
 			<path>Aircraft/707/Sounds/apu.wav</path>
 			<mode>looped</mode>
-			<condition>			
+			<condition>
 				<or>
 					<property>sim/current-view/internal</property>
-					<equals>
-						<property>sim/current-view/name</property>
-						<value type="string">Passengers View</value>
-					</equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 1</value>
+            </equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 2</value>
+            </equals>
 				</or>
 				<greater-than>
 					<property>engines/APU/rpm</property>
@@ -1759,13 +1873,19 @@ if you contacted me before making any changes to this software.
 			<name>APU-external</name>
 			<path>Aircraft/707/Sounds/apu.wav</path>
 			<mode>looped</mode>
-			<condition>			
-				<not><property>sim/current-view/internal</property></not>			
+			<condition>
+				<not><property>sim/current-view/internal</property></not>
 				<not>
-					<equals>
-						<property>sim/current-view/name</property>
-						<value type="string">Passengers View</value>
-					</equals>
+          <or>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 1</value>
+            </equals>
+            <equals>
+              <property>sim/current-view/name</property>
+              <value type="string">Passengers View 2</value>
+            </equals>
+          </or>
 				</not>
 				<greater-than>
 					<property>engines/APU/rpm</property>
@@ -1782,7 +1902,7 @@ if you contacted me before making any changes to this software.
         <offset>1.0</offset>
       </pitch>
 		</apu>
-		
+
   <music>
     <name>Big Band one</name>
     <mode>looped</mode>
@@ -1802,8 +1922,8 @@ if you contacted me before making any changes to this software.
 		  <volume>
 		    <offset> 1 </offset>
 		  </volume>
-    </music> 		
-		
+    </music>
+
   <music>
     <name>Rock n Roll one</name>
     <mode>looped</mode>
@@ -1823,7 +1943,7 @@ if you contacted me before making any changes to this software.
 		  <volume>
 		    <offset> 1 </offset>
 		  </volume>
-    </music> 
+    </music>
 
   <music>
     <name>Jack Sparrow Theme three</name>
@@ -1850,7 +1970,7 @@ if you contacted me before making any changes to this software.
     <name>Auxilliary Pumps</name>
     <mode>looped</mode>
     <path>Aircraft/707/Sounds/pump.wav</path>
-     <condition>			
+     <condition>
      	<and>
 				<greater-than>
 					<property>b707/hydraulic/rudder</property>
@@ -1871,12 +1991,12 @@ if you contacted me before making any changes to this software.
         <offset>3009</offset>
       </pitch>
     </aux-pump>
-    
+
   <hyd-pump>
     <name>System Pumps</name>
     <mode>looped</mode>
     <path>Aircraft/707/Sounds/pump.wav</path>
-     <condition>			
+     <condition>
      	<and>
 				<greater-than>
 					<property>b707/hydraulic/system</property>
@@ -1897,7 +2017,7 @@ if you contacted me before making any changes to this software.
         <offset>2000</offset>
       </pitch>
     </hyd-pump>
-    
+
 		<trim-wheels>
 			<name>Trim Wheels</name>
 			<mode>in-transit</mode>
@@ -1907,7 +2027,7 @@ if you contacted me before making any changes to this software.
 				<property>sim/current-view/internal</property>
 			</volume>
 		</trim-wheels>
-		
+
 </fx>
 
 </PropertyList>
