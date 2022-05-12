@@ -1,117 +1,118 @@
 AC3Db
-MATERIAL "radarblade.001" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.062" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.063" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.064" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.065" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.066" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.067" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.068" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.069" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.070" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.071" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.072" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.073" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.074" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.075" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.076" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.077" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.078" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.079" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.080" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.081" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.082" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.083" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.084" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.085" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.086" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.087" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.088" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.089" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.090" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.091" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.092" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.093" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.094" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.095" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.096" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.097" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.098" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.099" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.100" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.101" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.102" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.103" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.104" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.105" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.021" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.022" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.023" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.024" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.025" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.026" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.027" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.028" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.029" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.030" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.031" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.032" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.033" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.034" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.035" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.061" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.002" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.003" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.004" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.005" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.006" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.007" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.008" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.009" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.010" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.011" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.012" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.013" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.014" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.015" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.016" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.017" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.018" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.019" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.020" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.036" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.037" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.038" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.039" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.040" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.041" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.042" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.043" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.044" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.045" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.046" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.047" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.048" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.049" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.050" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.051" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.052" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.053" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.054" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.055" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.056" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.057" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.058" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.059" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
-MATERIAL "radarblade.060" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.108" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.109" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.110" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.111" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.112" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.113" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.114" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.115" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.116" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.117" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.118" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.119" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.120" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.121" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.122" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.123" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.124" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.125" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.126" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.127" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.128" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.129" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.130" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.131" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.132" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.133" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.134" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.135" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.136" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.137" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.138" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.139" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.140" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.141" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.142" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.143" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.144" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.145" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.146" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.147" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.148" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.149" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.150" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.151" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.152" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.153" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.154" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.155" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.156" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.157" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.158" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.159" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.160" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.161" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.162" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.163" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.164" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.165" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.166" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.167" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.168" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.169" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.170" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.171" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.172" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.173" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.174" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.175" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.176" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.177" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.178" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.179" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.180" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.181" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.182" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.183" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.184" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.185" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.186" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.187" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.188" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.189" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.190" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.191" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.192" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.193" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.194" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.195" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.196" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.197" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.198" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.199" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.200" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.201" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.202" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.203" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.204" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.205" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.206" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.207" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.208" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.209" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.210" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.211" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.212" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.213" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.214" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
 OBJECT world
-name "Blender_exporter_v3.3__mpsmp.ac"
-kids 135
+name "Blender_exporter_v3.3__mps.ac"
+kids 136
 OBJECT poly
 name "ai"
 data 6
-mp.030
+mp.136
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -131,7 +132,7 @@ kids 0
 OBJECT poly
 name "ai.001"
 data 6
-mp.091
+mp.137
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -151,7 +152,7 @@ kids 0
 OBJECT poly
 name "ai.002"
 data 6
-mp.092
+mp.138
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -171,7 +172,7 @@ kids 0
 OBJECT poly
 name "ai.003"
 data 6
-mp.093
+mp.139
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -191,7 +192,7 @@ kids 0
 OBJECT poly
 name "ai.004"
 data 6
-mp.094
+mp.140
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -211,7 +212,7 @@ kids 0
 OBJECT poly
 name "ai.005"
 data 6
-mp.095
+mp.141
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -231,7 +232,7 @@ kids 0
 OBJECT poly
 name "ai.006"
 data 6
-mp.096
+mp.142
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -251,7 +252,7 @@ kids 0
 OBJECT poly
 name "ai.007"
 data 6
-mp.097
+mp.143
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -271,7 +272,7 @@ kids 0
 OBJECT poly
 name "ai.008"
 data 6
-mp.098
+mp.144
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -291,7 +292,7 @@ kids 0
 OBJECT poly
 name "ai.009"
 data 6
-mp.099
+mp.145
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -311,7 +312,7 @@ kids 0
 OBJECT poly
 name "ai.010"
 data 6
-mp.100
+mp.146
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -331,7 +332,7 @@ kids 0
 OBJECT poly
 name "ai.011"
 data 6
-mp.101
+mp.147
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -351,7 +352,7 @@ kids 0
 OBJECT poly
 name "ai.012"
 data 6
-mp.102
+mp.148
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -371,7 +372,7 @@ kids 0
 OBJECT poly
 name "ai.013"
 data 6
-mp.103
+mp.149
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -391,7 +392,7 @@ kids 0
 OBJECT poly
 name "ai.014"
 data 6
-mp.104
+mp.150
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -411,7 +412,7 @@ kids 0
 OBJECT poly
 name "ai.015"
 data 6
-mp.105
+mp.151
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -431,7 +432,7 @@ kids 0
 OBJECT poly
 name "ai.016"
 data 6
-mp.106
+mp.152
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -451,7 +452,7 @@ kids 0
 OBJECT poly
 name "ai.017"
 data 6
-mp.107
+mp.153
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -471,7 +472,7 @@ kids 0
 OBJECT poly
 name "ai.018"
 data 6
-mp.108
+mp.154
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -491,7 +492,7 @@ kids 0
 OBJECT poly
 name "ai.019"
 data 6
-mp.109
+mp.155
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -511,7 +512,7 @@ kids 0
 OBJECT poly
 name "ai.020"
 data 6
-mp.110
+mp.156
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -531,7 +532,7 @@ kids 0
 OBJECT poly
 name "ai.021"
 data 6
-mp.111
+mp.157
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -551,7 +552,7 @@ kids 0
 OBJECT poly
 name "ai.022"
 data 6
-mp.112
+mp.158
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -571,7 +572,7 @@ kids 0
 OBJECT poly
 name "ai.023"
 data 6
-mp.113
+mp.159
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -591,7 +592,7 @@ kids 0
 OBJECT poly
 name "ai.024"
 data 6
-mp.114
+mp.160
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -611,7 +612,7 @@ kids 0
 OBJECT poly
 name "ai.025"
 data 6
-mp.115
+mp.161
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -631,7 +632,7 @@ kids 0
 OBJECT poly
 name "ai.026"
 data 6
-mp.116
+mp.162
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -651,7 +652,7 @@ kids 0
 OBJECT poly
 name "ai.027"
 data 6
-mp.117
+mp.163
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -671,7 +672,7 @@ kids 0
 OBJECT poly
 name "ai.028"
 data 6
-mp.118
+mp.164
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -691,7 +692,7 @@ kids 0
 OBJECT poly
 name "ai.029"
 data 6
-mp.119
+mp.165
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -711,7 +712,7 @@ kids 0
 OBJECT poly
 name "ai.030"
 data 6
-mp.120
+mp.166
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -731,7 +732,7 @@ kids 0
 OBJECT poly
 name "ai.031"
 data 6
-mp.121
+mp.167
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -751,7 +752,7 @@ kids 0
 OBJECT poly
 name "ai.032"
 data 6
-mp.122
+mp.168
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -771,7 +772,7 @@ kids 0
 OBJECT poly
 name "ai.033"
 data 6
-mp.123
+mp.169
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -791,7 +792,7 @@ kids 0
 OBJECT poly
 name "ai.034"
 data 6
-mp.124
+mp.170
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -811,7 +812,7 @@ kids 0
 OBJECT poly
 name "ai.035"
 data 6
-mp.125
+mp.171
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -831,7 +832,7 @@ kids 0
 OBJECT poly
 name "ai.036"
 data 6
-mp.126
+mp.172
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -851,7 +852,7 @@ kids 0
 OBJECT poly
 name "ai.037"
 data 6
-mp.127
+mp.173
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -871,7 +872,7 @@ kids 0
 OBJECT poly
 name "ai.038"
 data 6
-mp.128
+mp.174
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -891,7 +892,7 @@ kids 0
 OBJECT poly
 name "ai.039"
 data 6
-mp.129
+mp.175
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -911,7 +912,7 @@ kids 0
 OBJECT poly
 name "ai.040"
 data 6
-mp.130
+mp.176
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -931,7 +932,7 @@ kids 0
 OBJECT poly
 name "ai.041"
 data 6
-mp.131
+mp.177
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -951,7 +952,7 @@ kids 0
 OBJECT poly
 name "ai.042"
 data 6
-mp.132
+mp.178
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -971,7 +972,7 @@ kids 0
 OBJECT poly
 name "ai.043"
 data 6
-mp.133
+mp.179
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -991,7 +992,7 @@ kids 0
 OBJECT poly
 name "ai.044"
 data 6
-mp.134
+mp.180
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1010,8 +1011,8 @@ refs 4
 kids 0
 OBJECT poly
 name "mp"
-data 2
-mp
+data 6
+mp.181
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1031,7 +1032,7 @@ kids 0
 OBJECT poly
 name "mp.001"
 data 6
-mp.001
+mp.182
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1051,7 +1052,7 @@ kids 0
 OBJECT poly
 name "mp.002"
 data 6
-mp.002
+mp.183
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1071,7 +1072,7 @@ kids 0
 OBJECT poly
 name "mp.003"
 data 6
-mp.003
+mp.184
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1091,7 +1092,7 @@ kids 0
 OBJECT poly
 name "mp.004"
 data 6
-mp.004
+mp.185
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1111,7 +1112,7 @@ kids 0
 OBJECT poly
 name "mp.005"
 data 6
-mp.005
+mp.186
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1131,7 +1132,7 @@ kids 0
 OBJECT poly
 name "mp.006"
 data 6
-mp.006
+mp.187
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1151,7 +1152,7 @@ kids 0
 OBJECT poly
 name "mp.007"
 data 6
-mp.007
+mp.188
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1171,7 +1172,7 @@ kids 0
 OBJECT poly
 name "mp.008"
 data 6
-mp.008
+mp.189
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1191,7 +1192,7 @@ kids 0
 OBJECT poly
 name "mp.009"
 data 6
-mp.009
+mp.190
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1211,7 +1212,7 @@ kids 0
 OBJECT poly
 name "mp.010"
 data 6
-mp.010
+mp.191
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1231,7 +1232,7 @@ kids 0
 OBJECT poly
 name "mp.011"
 data 6
-mp.011
+mp.192
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1251,7 +1252,7 @@ kids 0
 OBJECT poly
 name "mp.012"
 data 6
-mp.012
+mp.193
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1271,7 +1272,7 @@ kids 0
 OBJECT poly
 name "mp.013"
 data 6
-mp.013
+mp.194
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1291,7 +1292,7 @@ kids 0
 OBJECT poly
 name "mp.014"
 data 6
-mp.014
+mp.195
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1311,7 +1312,7 @@ kids 0
 OBJECT poly
 name "mp.015"
 data 6
-mp.015
+mp.196
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1331,7 +1332,7 @@ kids 0
 OBJECT poly
 name "mp.016"
 data 6
-mp.016
+mp.197
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1351,7 +1352,7 @@ kids 0
 OBJECT poly
 name "mp.017"
 data 6
-mp.017
+mp.198
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1371,7 +1372,7 @@ kids 0
 OBJECT poly
 name "mp.018"
 data 6
-mp.018
+mp.199
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1391,7 +1392,7 @@ kids 0
 OBJECT poly
 name "mp.019"
 data 6
-mp.019
+mp.200
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1411,7 +1412,7 @@ kids 0
 OBJECT poly
 name "mp.020"
 data 6
-mp.020
+mp.201
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1431,7 +1432,7 @@ kids 0
 OBJECT poly
 name "mp.021"
 data 6
-mp.021
+mp.202
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1451,7 +1452,7 @@ kids 0
 OBJECT poly
 name "mp.022"
 data 6
-mp.022
+mp.203
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1471,7 +1472,7 @@ kids 0
 OBJECT poly
 name "mp.023"
 data 6
-mp.023
+mp.204
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1491,7 +1492,7 @@ kids 0
 OBJECT poly
 name "mp.024"
 data 6
-mp.024
+mp.205
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1511,7 +1512,7 @@ kids 0
 OBJECT poly
 name "mp.025"
 data 6
-mp.025
+mp.206
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1531,7 +1532,7 @@ kids 0
 OBJECT poly
 name "mp.026"
 data 6
-mp.026
+mp.207
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1551,7 +1552,7 @@ kids 0
 OBJECT poly
 name "mp.027"
 data 6
-mp.027
+mp.208
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1571,7 +1572,7 @@ kids 0
 OBJECT poly
 name "mp.028"
 data 6
-mp.028
+mp.209
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1591,7 +1592,7 @@ kids 0
 OBJECT poly
 name "mp.029"
 data 6
-mp.029
+mp.210
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1611,7 +1612,7 @@ kids 0
 OBJECT poly
 name "mp.030"
 data 6
-mp.050
+mp.211
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1631,7 +1632,7 @@ kids 0
 OBJECT poly
 name "mp.031"
 data 6
-mp.051
+mp.212
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1651,7 +1652,7 @@ kids 0
 OBJECT poly
 name "mp.032"
 data 6
-mp.052
+mp.213
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1671,7 +1672,7 @@ kids 0
 OBJECT poly
 name "mp.033"
 data 6
-mp.053
+mp.214
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1691,7 +1692,7 @@ kids 0
 OBJECT poly
 name "mp.034"
 data 6
-mp.054
+mp.215
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1711,7 +1712,7 @@ kids 0
 OBJECT poly
 name "mp.035"
 data 6
-mp.055
+mp.216
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1731,7 +1732,7 @@ kids 0
 OBJECT poly
 name "mp.036"
 data 6
-mp.056
+mp.217
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1751,7 +1752,7 @@ kids 0
 OBJECT poly
 name "mp.037"
 data 6
-mp.057
+mp.218
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1771,7 +1772,7 @@ kids 0
 OBJECT poly
 name "mp.038"
 data 6
-mp.058
+mp.219
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1791,7 +1792,7 @@ kids 0
 OBJECT poly
 name "mp.039"
 data 6
-mp.059
+mp.220
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1811,7 +1812,7 @@ kids 0
 OBJECT poly
 name "mp.040"
 data 6
-mp.060
+mp.221
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1831,7 +1832,7 @@ kids 0
 OBJECT poly
 name "mp.041"
 data 6
-mp.061
+mp.222
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1851,7 +1852,7 @@ kids 0
 OBJECT poly
 name "mp.042"
 data 6
-mp.062
+mp.223
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1871,7 +1872,7 @@ kids 0
 OBJECT poly
 name "mp.043"
 data 6
-mp.063
+mp.224
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1891,7 +1892,7 @@ kids 0
 OBJECT poly
 name "mp.044"
 data 6
-mp.064
+mp.225
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1911,7 +1912,7 @@ kids 0
 OBJECT poly
 name "swift"
 data 6
-mp.090
+mp.226
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1931,7 +1932,7 @@ kids 0
 OBJECT poly
 name "swift.001"
 data 6
-mp.031
+mp.227
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1951,7 +1952,7 @@ kids 0
 OBJECT poly
 name "swift.002"
 data 6
-mp.032
+mp.228
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1971,7 +1972,7 @@ kids 0
 OBJECT poly
 name "swift.003"
 data 6
-mp.033
+mp.229
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -1991,7 +1992,7 @@ kids 0
 OBJECT poly
 name "swift.004"
 data 6
-mp.034
+mp.230
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2011,7 +2012,7 @@ kids 0
 OBJECT poly
 name "swift.005"
 data 6
-mp.035
+mp.231
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2031,7 +2032,7 @@ kids 0
 OBJECT poly
 name "swift.006"
 data 6
-mp.036
+mp.232
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2051,7 +2052,7 @@ kids 0
 OBJECT poly
 name "swift.007"
 data 6
-mp.037
+mp.233
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2071,7 +2072,7 @@ kids 0
 OBJECT poly
 name "swift.008"
 data 6
-mp.038
+mp.234
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2091,7 +2092,7 @@ kids 0
 OBJECT poly
 name "swift.009"
 data 6
-mp.039
+mp.235
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2111,7 +2112,7 @@ kids 0
 OBJECT poly
 name "swift.010"
 data 6
-mp.040
+mp.236
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2131,7 +2132,7 @@ kids 0
 OBJECT poly
 name "swift.011"
 data 6
-mp.041
+mp.237
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2151,7 +2152,7 @@ kids 0
 OBJECT poly
 name "swift.012"
 data 6
-mp.042
+mp.238
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2171,7 +2172,7 @@ kids 0
 OBJECT poly
 name "swift.013"
 data 6
-mp.043
+mp.239
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2191,7 +2192,7 @@ kids 0
 OBJECT poly
 name "swift.014"
 data 6
-mp.044
+mp.240
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2211,7 +2212,7 @@ kids 0
 OBJECT poly
 name "swift.015"
 data 6
-mp.045
+mp.241
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2231,7 +2232,7 @@ kids 0
 OBJECT poly
 name "swift.016"
 data 6
-mp.046
+mp.242
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2251,7 +2252,7 @@ kids 0
 OBJECT poly
 name "swift.017"
 data 6
-mp.047
+mp.243
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2271,7 +2272,7 @@ kids 0
 OBJECT poly
 name "swift.018"
 data 6
-mp.048
+mp.244
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2291,7 +2292,7 @@ kids 0
 OBJECT poly
 name "swift.019"
 data 6
-mp.049
+mp.245
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2311,7 +2312,7 @@ kids 0
 OBJECT poly
 name "swift.020"
 data 6
-mp.065
+mp.246
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2331,7 +2332,7 @@ kids 0
 OBJECT poly
 name "swift.021"
 data 6
-mp.066
+mp.247
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2351,7 +2352,7 @@ kids 0
 OBJECT poly
 name "swift.022"
 data 6
-mp.067
+mp.248
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2371,7 +2372,7 @@ kids 0
 OBJECT poly
 name "swift.023"
 data 6
-mp.068
+mp.249
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2391,7 +2392,7 @@ kids 0
 OBJECT poly
 name "swift.024"
 data 6
-mp.069
+mp.250
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2411,7 +2412,7 @@ kids 0
 OBJECT poly
 name "swift.025"
 data 6
-mp.070
+mp.251
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2431,7 +2432,7 @@ kids 0
 OBJECT poly
 name "swift.026"
 data 6
-mp.071
+mp.252
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2451,7 +2452,7 @@ kids 0
 OBJECT poly
 name "swift.027"
 data 6
-mp.072
+mp.253
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2471,7 +2472,7 @@ kids 0
 OBJECT poly
 name "swift.028"
 data 6
-mp.073
+mp.254
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2491,7 +2492,7 @@ kids 0
 OBJECT poly
 name "swift.029"
 data 6
-mp.074
+mp.255
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2511,7 +2512,7 @@ kids 0
 OBJECT poly
 name "swift.030"
 data 6
-mp.075
+mp.256
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2531,7 +2532,7 @@ kids 0
 OBJECT poly
 name "swift.031"
 data 6
-mp.076
+mp.257
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2551,7 +2552,7 @@ kids 0
 OBJECT poly
 name "swift.032"
 data 6
-mp.077
+mp.258
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2571,7 +2572,7 @@ kids 0
 OBJECT poly
 name "swift.033"
 data 6
-mp.078
+mp.259
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2591,7 +2592,7 @@ kids 0
 OBJECT poly
 name "swift.034"
 data 6
-mp.079
+mp.260
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2611,7 +2612,7 @@ kids 0
 OBJECT poly
 name "swift.035"
 data 6
-mp.080
+mp.261
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2631,7 +2632,7 @@ kids 0
 OBJECT poly
 name "swift.036"
 data 6
-mp.081
+mp.262
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2651,7 +2652,7 @@ kids 0
 OBJECT poly
 name "swift.037"
 data 6
-mp.082
+mp.263
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2671,7 +2672,7 @@ kids 0
 OBJECT poly
 name "swift.038"
 data 6
-mp.083
+mp.264
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2691,7 +2692,7 @@ kids 0
 OBJECT poly
 name "swift.039"
 data 6
-mp.084
+mp.265
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2711,7 +2712,7 @@ kids 0
 OBJECT poly
 name "swift.040"
 data 6
-mp.085
+mp.266
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2731,7 +2732,7 @@ kids 0
 OBJECT poly
 name "swift.041"
 data 6
-mp.086
+mp.267
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2751,7 +2752,7 @@ kids 0
 OBJECT poly
 name "swift.042"
 data 6
-mp.087
+mp.268
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2771,7 +2772,7 @@ kids 0
 OBJECT poly
 name "swift.043"
 data 6
-mp.088
+mp.269
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2791,7 +2792,7 @@ kids 0
 OBJECT poly
 name "swift.044"
 data 6
-mp.089
+mp.270
 crease 45.0
 texture "radarblade.png"
 numvert 4
@@ -2802,6 +2803,26 @@ numvert 4
 numsurf 1
 SURF 0X10
 mat 105
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ta"
+data 6
+mp.271
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 106
 refs 4
 3 0.998184 0.922993
 0 0.998184 0.998908
