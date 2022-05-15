@@ -179,7 +179,17 @@ if you contacted me before making any changes to this software.
     <texture>707.png</texture>
   </animation>
 
-	<animation>
+  <effect>
+    <inherits-from>Aircraft/707/Models/Lights/TailLogoLight</inherits-from>
+    <object-name>vertstab</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Aircraft/707/Models/Lights/RudderLogoLight</inherits-from>
+    <object-name>rudder</object-name>
+  </effect>
+
+	<!--animation>
 		<type>material</type>
 		<object-name>rudder</object-name>
 		<object-name>vertstab</object-name>
@@ -194,7 +204,7 @@ if you contacted me before making any changes to this software.
 		  <blue>0.35</blue>
 		  <factor-prop>sim/multiplay/generic/int[7]</factor-prop>
 		</emission>
-	</animation>
+	</animation-->
 
 	<animation>
 		<type>noshadow</type>
