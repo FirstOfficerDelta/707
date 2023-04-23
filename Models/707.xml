@@ -158,13 +158,13 @@ if you contacted me before making any changes to this software.
     <object-name>rhmgdoorc</object-name>
     <object-name>wing</object-name>
     <object-name>elevwing</object-name>
-	<object-name>rhfiletflap</object-name>
-	<object-name>lhfiletflap</object-name>
-	<object-name>rhibflap</object-name>
-	<object-name>lhibflap</object-name>
-	<object-name>rhobflap</object-name>
-	<object-name>lhobflap</object-name>
-	<object-name>rhsp1</object-name>
+	  <object-name>rhfiletflap</object-name>
+	  <object-name>lhfiletflap</object-name>
+	  <object-name>rhibflap</object-name>
+	  <object-name>lhibflap</object-name>
+  	<object-name>rhobflap</object-name>
+  	<object-name>lhobflap</object-name>
+  	<object-name>rhsp1</object-name>
 	<object-name>lhsp1</object-name>
 	<object-name>rhsp3</object-name>
 	<object-name>lhsp3</object-name>
@@ -181,68 +181,57 @@ if you contacted me before making any changes to this software.
 
 <!--Shader Effects-->
 
-<!--effect>
+<effect>
   <inherits-from>Effects/model-combined-deferred</inherits-from>
-  <object-name>antenaasa</object-name>
-  <object-name>doorBelly</object-name>
-  <object-name>doorCargo</object-name>
-  <object-name>doorFL</object-name>
-  <object-name>doorRL</object-name>
-  <object-name>elevwing</object-name>
-  <object-name>engineSupport</object-name>
-  <object-name>fuselage</object-name>
-  <object-name>fuselage.belly</object-name>
   <object-name>fuselage.inner</object-name>
-  <object-name>lampFrame</object-name>
-  <object-name>LeftGear</object-name>
-  <object-name>LeftGear.001</object-name>
-  <object-name>LeftGearCompressor</object-name>
-  <object-name>LeftGearCompressor1</object-name>
+  <object-name>fuselage.belly</object-name>
+  <object-name>lhaftfairing</object-name>
   <object-name>lhdoorinner</object-name>
   <object-name>lhdoorouter</object-name>
-  <object-name>lhelevator</object-name>
-  <object-name>lhfiletflap</object-name>
-  <object-name>lhibail</object-name>
-  <object-name>lhibflap</object-name>
+  <object-name>lhfwdfairing</object-name>
+  <object-name>rhaftfairing</object-name>
+  <object-name>rhdoorinner</object-name>
+  <object-name>rhdoorouter</object-name>
+  <object-name>rhfwdfairing</object-name>
+  <object-name>engineOne</object-name>
+  <object-name>engineTwo</object-name>
+  <object-name>engineThree</object-name>
+  <object-name>engineFour</object-name>
+  <object-name>engineOnePW</object-name>
+  <object-name>engineTwoPW</object-name>
+  <object-name>engineThreePW</object-name>
+  <object-name>engineFourPW</object-name>
+  <object-name>engineSupport</object-name>
+  <object-name>slats</object-name>
   <object-name>lhngdoor</object-name>
   <object-name>lhngdooraft</object-name>
-  <object-name>lhobail</object-name>
-  <object-name>lhobflap</object-name>
-  <object-name>lhsp1</object-name>
-  <object-name>lhsp3</object-name>
+  <object-name>rhngdoor</object-name>
+  <object-name>rhngdooraft</object-name>
   <object-name>mgdoora</object-name>
   <object-name>mgdoorb</object-name>
   <object-name>mgdoorc</object-name>
-  <object-name>NGear</object-name>
-  <object-name>NGearStrut</object-name>
-  <object-name>nonones</object-name>
-  <object-name>NoseWheel</object-name>
-  <object-name>nose</object-name>
-  <object-name>nosewheelwell</object-name>
-  <object-name>probe</object-name>
-  <object-name>rhdoorinner</object-name>
-  <object-name>rhdoorouter</object-name>
-  <object-name>rhelevator</object-name>
-  <object-name>rhfiletflap</object-name>
-  <object-name>rhibail</object-name>
-  <object-name>rhibflap</object-name>
   <object-name>rhmgdoora</object-name>
   <object-name>rhmgdoorb</object-name>
   <object-name>rhmgdoorc</object-name>
-  <object-name>rhngdoor</object-name>
-  <object-name>rhngdooraft</object-name>
-  <object-name>rhobail</object-name>
-  <object-name>rhobflap</object-name>
-  <object-name>rhsp1</object-name>
-  <object-name>rhsp3</object-name>
-  <object-name>RightGear</object-name>
-  <object-name>RightGear.001</object-name>
-  <object-name>RightGearCompressor</object-name>
-  <object-name>RightGearCompressor1</object-name>
-  <object-name>slatsL</object-name>
-  <object-name>slatsR</object-name>
   <object-name>wing</object-name>
-</effect-->
+  <object-name>elevwing</object-name>
+  <object-name>rhfiletflap</object-name>
+  <object-name>lhfiletflap</object-name>
+  <object-name>rhibflap</object-name>
+  <object-name>lhibflap</object-name>
+  <object-name>rhobflap</object-name>
+  <object-name>lhobflap</object-name>
+  <object-name>rhsp1</object-name>
+  <object-name>lhsp1</object-name>
+  <object-name>rhsp3</object-name>
+  <object-name>lhsp3</object-name>
+  <object-name>rhibail</object-name>
+  <object-name>lhibail</object-name>
+  <object-name>rhobail</object-name>
+  <object-name>lhobail</object-name>
+  <object-name>rhelevator</object-name>
+  <object-name>lhelevator</object-name>
+</effect>
 
   <effect>
     <inherits-from>Aircraft/707/Models/Lights/TailLogoLight</inherits-from>
@@ -254,22 +243,16 @@ if you contacted me before making any changes to this software.
     <object-name>rudder</object-name>
   </effect>
 
-	<!--animation>
-		<type>material</type>
-		<object-name>rudder</object-name>
-		<object-name>vertstab</object-name>
-		<condition>
-		  	<not>
-      			<property>sim/rendering/rembrandt/enabled</property>
-      		</not>
-		</condition>
-		<emission>
-		  <red>0.35</red>
-		  <green>0.35</green>
-		  <blue>0.35</blue>
-		  <factor-prop>sim/multiplay/generic/int[7]</factor-prop>
-		</emission>
-	</animation-->
+  <effect>
+    <inherits-from>Aircraft/707/Models/Lights/FuselageLandingLight</inherits-from>
+    <object-name>nose</object-name>
+    <object-name>fuselage</object-name>
+    <object-name>doorFL</object-name>
+    <object-name>doorRL</object-name>
+    <object-name>doorCargo</object-name>
+    <object-name>doorBelly</object-name>
+    <object-name>nonones</object-name>
+  </effect>
 
 	<animation>
 		<type>noshadow</type>
@@ -2239,6 +2222,7 @@ if you contacted me before making any changes to this software.
  <!--cockpit -->
 	<model>
 		<name>cockpit</name>
+    <usage>interior</usage>
 		<path>Aircraft/707/Models/Cockpit/cockpit.xml</path>
 		<offsets>
 		  <x-m>0.0</x-m>
@@ -2249,6 +2233,7 @@ if you contacted me before making any changes to this software.
 
 	<model>
 		<name>registrationCockpitPanel</name>
+    <usage>interior</usage>
 	  <path>Aircraft/707/Models/Registration/flightnumber.xml</path>
 	  <offsets>
 	      <x-m>-18.91</x-m>
@@ -2265,6 +2250,7 @@ if you contacted me before making any changes to this software.
 	</model>
 
 	<model>
+    <usage>interior</usage>
 		<name>theCabin</name>
 		<path>Aircraft/707/Models/cabin.xml</path>
 	</model>

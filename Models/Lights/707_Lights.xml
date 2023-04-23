@@ -17,9 +17,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Every software has a developer, also free software. 
-As a gesture of courtesy and respect, I would be delighted 
-if you contacted me before making any changes to this software. 
+Every software has a developer, also free software.
+As a gesture of courtesy and respect, I would be delighted
+if you contacted me before making any changes to this software.
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
 
@@ -31,11 +31,11 @@ if you contacted me before making any changes to this software.
 <!-- No preview for fgrun-->
 <animation>
     <object-name>BeaconVolume_1</object-name>
-    <object-name>BeaconVolume_2</object-name>	
+    <object-name>BeaconVolume_2</object-name>
     <object-name>NavLightVolume_left</object-name>
     <object-name>NavLightVolume_right</object-name>
     <object-name>NavLightBackVolume</object-name>
-    <object-name>LightBeaconGlow</object-name>	
+    <object-name>LightBeaconGlow</object-name>
     <object-name>LightTaxiGlowH</object-name>
     <object-name>LightTaxiGlowH.001</object-name>
     <object-name>LightTaxiGlowH.002</object-name>
@@ -53,7 +53,7 @@ if you contacted me before making any changes to this software.
     <object-name>Spot.001</object-name>
     <object-name>Spot.002</object-name>
     <object-name>lightconeRudderL</object-name>
-    <object-name>lightconeRudderR</object-name>	
+    <object-name>lightconeRudderR</object-name>
     <nopreview/>
 </animation>
 
@@ -80,13 +80,13 @@ if you contacted me before making any changes to this software.
     <object-name>LightTaxiGlowH.002</object-name>
     <object-name>LightTailGlow</object-name>
     <object-name>LightNavGlowL</object-name>
-    <object-name>LightNavGlowR</object-name>		
-    <object-name>Cone-texture</object-name>	
+    <object-name>LightNavGlowR</object-name>
+    <object-name>Cone-texture</object-name>
     <object-name>Cone-texture.001</object-name>
     <object-name>Cone-texture.002</object-name>
     <object-name>Spot</object-name>
     <object-name>Spot.001</object-name>
-    <object-name>Spot.002</object-name>	
+    <object-name>Spot.002</object-name>
     <object-name>NavLightBackVolume</object-name>
     <object-name>NavLightVolume_right</object-name>
     <object-name>NavLightVolume_left</object-name>
@@ -97,7 +97,7 @@ if you contacted me before making any changes to this software.
     <object-name>LightVolume.002</object-name>
     <object-name>LightBall</object-name>
     <object-name>Strobes</object-name>
-    <object-name>CabinWindows</object-name>	
+    <object-name>CabinWindows</object-name>
     <object-name>CargoWindows</object-name>
     <object-name>CabinWindowsDoorF</object-name>
     <object-name>CabinWindowsDoorR</object-name>
@@ -134,14 +134,14 @@ if you contacted me before making any changes to this software.
     <object-name>Cone-texture.002</object-name>
     <object-name>Spot</object-name>
     <object-name>Spot.001</object-name>
-    <object-name>Spot.002</object-name>	
+    <object-name>Spot.002</object-name>
     <object-name>Strobes</object-name>
     <object-name>CabinWindows</object-name>
     <object-name>CargoWindows</object-name>
     <object-name>CabinWindowsDoorF</object-name>
     <object-name>CabinWindowsDoorR</object-name>
     <object-name>lightconeRudderL</object-name>
-    <object-name>lightconeRudderR</object-name>		
+    <object-name>lightconeRudderR</object-name>
 </effect>
 
 <!-- Landing and Search Light fake cone - disable in rembrand  -->
@@ -155,11 +155,11 @@ if you contacted me before making any changes to this software.
 		          <greater-than>
 		            <property>sim/multiplay/generic/float[8]</property>
 		            <value>15</value>
-		          </greater-than>	
+		          </greater-than>
 			</and>
 		</condition>
 	</animation>
-	
+
 	<animation>
 	<type>select</type>
   	<object-name>Cone-texture.001</object-name>
@@ -170,11 +170,11 @@ if you contacted me before making any changes to this software.
 		          <greater-than>
 		            <property>sim/multiplay/generic/float[8]</property>
 		            <value>15</value>
-		          </greater-than>	
+		          </greater-than>
 			</and>
 		</condition>
 	</animation>
-	
+
 	<animation>
 	<type>select</type>
 		<object-name>Spot</object-name>
@@ -184,7 +184,7 @@ if you contacted me before making any changes to this software.
 					<property>/sim/rendering/rembrandt/enabled</property>
 				</not>
 				<property>sim/multiplay/generic/int[0]</property>
-				<property>gear/gear[0]/position-norm</property>	     
+				<property>gear/gear[0]/position-norm</property>
 				  <less-than>
 		            <property>sim/multiplay/generic/float[8]</property>
 		            <value>15</value>
@@ -192,11 +192,11 @@ if you contacted me before making any changes to this software.
 		          <greater-than>
 		            <property>sim/multiplay/generic/float[8]</property>
 		            <value>0</value>
-		          </greater-than>			
+		          </greater-than>
 			</and>
 		</condition>
 	</animation>
-	
+
 	<animation>
 	<type>select</type>
   	<object-name>Spot.001</object-name>
@@ -206,7 +206,7 @@ if you contacted me before making any changes to this software.
 				<not>
 					<property>/sim/rendering/rembrandt/enabled</property>
 				</not>
-				<property>sim/multiplay/generic/int[1]</property>	          
+				<property>sim/multiplay/generic/int[1]</property>
 				  <less-than>
 		            <property>sim/multiplay/generic/float[8]</property>
 		            <value>15</value>
@@ -271,7 +271,7 @@ if you contacted me before making any changes to this software.
     <factor-prop>sim/multiplay/generic/float[0]</factor-prop>
   </emission>
 </animation>
-	
+
 <!-- Rembrand - Position strobe red top / bottom -->
 <animation>
 	<type>select</type>
@@ -285,7 +285,7 @@ if you contacted me before making any changes to this software.
 		</and>
 	</condition>
 </animation>
-	
+
 
 <animation>
   <type>select</type>
@@ -385,15 +385,15 @@ if you contacted me before making any changes to this software.
 
 <!-- Left (red) nav light -->
 
-<animation>
+<!--animation>
   <type>select</type>
   <object-name>LightNavGlowL</object-name>
   <condition>
     <property>sim/multiplay/generic/int[3]</property>
   </condition>
-</animation>
+</animation-->
 
-<animation>
+<!--animation>
   <type>flash</type>
   <object-name>LightNavGlowL</object-name>
   <center>
@@ -412,11 +412,48 @@ if you contacted me before making any changes to this software.
   <two-sides type="bool">false</two-sides>
   <min>0.01</min>
   <max>1</max>
-</animation>
+</animation-->
+
+<model>
+ <name>RedLight</name>
+ <path>Aircraft/Generic/spotlight.xml</path>
+ <offsets>
+  <x-m>10.79</x-m>
+  <y-m>-21.04</y-m>
+  <z-m> 0.975628</z-m>
+ </offsets>
+ <overlay>
+  <params>
+   <name>RedLight</name>
+   <power-source>sim/multiplay/generic/int[3]</power-source>
+   <direction>
+    <x>1</x>
+    <y>0.7</y>
+    <z>0</z>
+   </direction>
+   <ambient>
+    <r>1</r>
+    <g>0</g>
+    <b>0</b>
+   </ambient>
+   <specular>
+    <r>1.0</r>
+    <g>0.7</g>
+    <b>0.5</b>
+   </specular>
+   <attenuation>
+     <c>1.0</c>
+     <l>0.22</l>
+     <q>0.20</q>
+   </attenuation>
+   <spot-exponent>1</spot-exponent>
+  </params>
+ </overlay>
+</model>
 
 <!-- Right (green) nav light -->
 
-<animation>
+<!--animation>
   <type>select</type>
   <object-name>LightNavGlowR</object-name>
   <condition>
@@ -443,8 +480,44 @@ if you contacted me before making any changes to this software.
   <two-sides type="bool">false</two-sides>
   <min>0.01</min>
   <max>1</max>
-</animation>
+</animation-->
 
+<model>
+ <name>GreenLight</name>
+ <path>Aircraft/Generic/spotlight.xml</path>
+ <offsets>
+  <x-m>10.79</x-m>
+  <y-m>21.04</y-m>
+  <z-m>0.975628</z-m>
+ </offsets>
+ <overlay>
+  <params>
+   <name>GreenLight</name>
+   <power-source>sim/multiplay/generic/int[3]</power-source>
+   <direction>
+    <x>1</x>
+    <y>-0.7</y>
+    <z>0</z>
+   </direction>
+   <ambient>
+    <r>0</r>
+    <g>1</g>
+    <b>0</b>
+   </ambient>
+   <specular>
+    <r>0.7</r>
+    <g>1</g>
+    <b>0.5</b>
+   </specular>
+   <attenuation>
+     <c>1.0</c>
+     <l>0.22</l>
+     <q>0.20</q>
+   </attenuation>
+   <spot-exponent>1</spot-exponent>
+  </params>
+ </overlay>
+</model>
 
 <!-- Tail Light -->
 <!--  Rembrand - Nav light - Left, Right, Tail -->
@@ -600,7 +673,7 @@ if you contacted me before making any changes to this software.
 		<far-m>36</far-m>
 		<cutoff>150</cutoff>
 	</animation>
-	
+
 	<!-- Nav light left -->
 	<animation>
 		<type>light</type>
@@ -645,7 +718,7 @@ if you contacted me before making any changes to this software.
 		<far-m>18</far-m>
 		<cutoff>150</cutoff>
 	</animation>
-	
+
 	<!-- Nav light right -->
 	<animation>
 		<type>light</type>
@@ -690,9 +763,9 @@ if you contacted me before making any changes to this software.
 		<far-m>18</far-m>
 		<cutoff>150</cutoff>
 	</animation>
-	
+
 	<!-- Taxi light -->
-	<animation>
+	<!--animation>
 		<type>light</type>
 		<light-type>spot</light-type>
 		<name>Landinglight</name>
@@ -728,8 +801,156 @@ if you contacted me before making any changes to this software.
 		<near-m>0.05</near-m>
 		<far-m>450</far-m>
 		<cutoff>40</cutoff>
-	</animation>
-	
+	</animation-->
+
+  <model>
+    <name>NoseLandingLightLeft</name>
+   <path>Aircraft/Generic/spotlight.xml</path>
+   <offsets>
+    <x-m>-15.97</x-m>
+    <y-m>-0.101577</y-m>
+    <z-m>-1.59824</z-m>
+   </offsets>
+   <overlay>
+    <params>
+     <name>NoseLandingLightLeft</name>
+     <power-source>controls/lighting/landing-light[0]</power-source>
+     <direction>
+      <x>1</x>
+      <y>0</y>
+      <z>0.3</z>
+     </direction>
+     <ambient>
+      <r>1</r>
+      <g>1</g>
+      <b>1</b>
+     </ambient>
+     <specular>
+      <r>0.98</r>
+      <g>0.76</g>
+      <b>0.58</b>
+     </specular>
+     <attenuation>
+       <c>1.0</c>
+       <l>0.14</l>
+       <q>0.07</q>
+     </attenuation>
+     <spot-cutoff>30</spot-cutoff>
+    </params>
+   </overlay>
+  </model>
+
+  <model>
+    <name>NoseLandingLightRight</name>
+   <path>Aircraft/Generic/spotlight.xml</path>
+   <offsets>
+    <x-m>-15.97</x-m>
+    <y-m>0.154321</y-m>
+    <z-m>-1.59824</z-m>
+   </offsets>
+   <overlay>
+    <params>
+     <name>NoseLandingLightRight</name>
+     <power-source>controls/lighting/landing-light[0]</power-source>
+     <direction>
+      <x>1</x>
+      <y>0</y>
+      <z>0.3</z>
+     </direction>
+     <ambient>
+      <r>1</r>
+      <g>1</g>
+      <b>1</b>
+     </ambient>
+     <specular>
+      <r>0.98</r>
+      <g>0.76</g>
+      <b>0.58</b>
+     </specular>
+     <attenuation>
+       <c>1.0</c>
+       <l>0.14</l>
+       <q>0.07</q>
+     </attenuation>
+     <spot-cutoff>30</spot-cutoff>
+    </params>
+   </overlay>
+  </model>
+
+  <model>
+    <name>NoseLandingLightLeft</name>
+   <path>Aircraft/Generic/spotlight.xml</path>
+   <offsets>
+    <x-m>-5.2664</x-m>
+    <y-m>-4.02843</y-m>
+    <z-m>-0.861392</z-m>
+   </offsets>
+   <overlay>
+    <params>
+     <name>NoseLandingLightLeft</name>
+     <power-source>controls/lighting/landing-light[1]</power-source>
+     <direction>
+      <x>1</x>
+      <y>0</y>
+      <z>0.3</z>
+     </direction>
+     <ambient>
+      <r>1</r>
+      <g>1</g>
+      <b>1</b>
+     </ambient>
+     <specular>
+      <r>0.98</r>
+      <g>0.76</g>
+      <b>0.58</b>
+     </specular>
+     <attenuation>
+       <c>1.0</c>
+       <l>0.045</l>
+       <q>0.0075</q>
+     </attenuation>
+     <spot-cutoff>30</spot-cutoff>
+    </params>
+   </overlay>
+  </model>
+
+  <model>
+    <name>NoseLandingLightRight</name>
+   <path>Aircraft/Generic/spotlight.xml</path>
+   <offsets>
+    <x-m>-5.40303</x-m>
+    <y-m>3.91387</y-m>
+    <z-m>-0.861392</z-m>
+   </offsets>
+   <overlay>
+    <params>
+     <name>NoseLandingLightRight</name>
+     <power-source>controls/lighting/landing-light[1]</power-source>
+     <direction>
+      <x>1</x>
+      <y>0</y>
+      <z>0.3</z>
+     </direction>
+     <ambient>
+      <r>1</r>
+      <g>1</g>
+      <b>1</b>
+     </ambient>
+     <specular>
+      <r>0.98</r>
+      <g>0.76</g>
+      <b>0.58</b>
+     </specular>
+     <attenuation>
+       <c>1.0</c>
+       <l>0.045</l>
+       <q>0.0075</q>
+     </attenuation>
+     <spot-cutoff>30</spot-cutoff>
+    </params>
+   </overlay>
+  </model>
+
 	<!-- Logo light -->
 	<animation>
 		<type>light</type>
@@ -768,7 +989,7 @@ if you contacted me before making any changes to this software.
 		<far-m>10</far-m>
 		<cutoff>40</cutoff>
 	</animation>
-	
+
 	<animation>
 		<type>light</type>
 		<light-type>spot</light-type>
@@ -805,8 +1026,8 @@ if you contacted me before making any changes to this software.
 		<near-m>0.01</near-m>
 		<far-m>10</far-m>
 		<cutoff>40</cutoff>
-	</animation>	
-	
+	</animation>
+
 	<!-- Landing light right-->
 	<animation>
 		<type>light</type>
@@ -845,7 +1066,7 @@ if you contacted me before making any changes to this software.
 		<far-m>450</far-m>
 		<cutoff>40</cutoff>
 	</animation>
-	
+
 	<!-- Landing light left-->
 	<animation>
 		<type>light</type>
@@ -884,7 +1105,7 @@ if you contacted me before making any changes to this software.
 		<far-m>450</far-m>
 		<cutoff>40</cutoff>
 	</animation>
-	
+
 		<!-- beacon red top -->
 	<animation>
 		<type>light</type>
@@ -922,7 +1143,7 @@ if you contacted me before making any changes to this software.
 		<near-m>0.01</near-m>
 		<far-m>10</far-m>
 	</animation>
-	
+
 	<!-- beacon red bottom -->
 	<animation>
 		<type>light</type>
@@ -963,4 +1184,3 @@ if you contacted me before making any changes to this software.
 
 
 </PropertyList>
-
